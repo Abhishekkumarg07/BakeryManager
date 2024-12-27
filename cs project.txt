@@ -1,5 +1,5 @@
 import mysql.connector
-con=mysql.connector.connect(host='localhost',user='root',password='RamAbhi722005')
+con=mysql.connector.connect(host='localhost',user='root',password='xyz')
 cur=con.cursor()
 cur.execute("create database if not exists items")
 cur.execute("use items")
